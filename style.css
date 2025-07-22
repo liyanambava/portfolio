@@ -220,7 +220,13 @@ body {
   width: 100%;
   /*max-width: 350px;*/
   aspect-ratio: 1 / 1;
-  background: #f8eaff;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.05);
   overflow: hidden;
@@ -241,7 +247,13 @@ body {
 .project-card p {
   margin: 0;
   padding: 1rem;
-  background: #f8eaff;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   color: #4b4453;
   font-weight: 500;
   font-size: 1rem;
@@ -281,9 +293,10 @@ body {
   color: #4c4052;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
-  max-width: 85%;
-  line-height: 1.5;
-  word-wrap: break-word;
+  background: transparent;
+  text-align: center;
+  padding-right: 25px;
+  padding-bottom: 25px;
 }
 
 
